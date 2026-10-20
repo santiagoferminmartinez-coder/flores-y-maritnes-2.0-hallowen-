@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080609">
+  <title>La Noche — Halloween</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="fog fog-one" aria-hidden="true"></div>
+  <div class="fog fog-two" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#inicio"><span class="brand-mark">☠</span> LA NOCHE <span class="brand-sub">ARCHIVO 31</span></a>
+    <nav>
+      <a href="#disfraces">Disfraces</a>
+      <a href="#peliculas">Películas</a>
+      <a href="#ritual">¿Dulce o truco?</a>
+    </nav>
+    <button id="soundToggle" class="sound-toggle" type="button" aria-pressed="false"><span class="sound-dot"></span> SONIDO: OFF</button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="pulse"></span> 31 DE OCTUBRE · NO MIRES ATRÁS</p>
+        <h1>LA NOCHE<br><em>TE OBSERVA.</em></h1>
+        <p class="hero-copy">La puerta está abierta. El bosque está despierto.<br>Encuentra tu disfraz, elige una película… y no respondas si escuchas tu nombre.</p>
+        <div class="hero-actions">
+          <a class="button button-red" href="#disfraces">ENTRAR BAJO TU PROPIO RIESGO <span>↘</span></a>
+          <button class="button button-ghost" id="ambienceButton" type="button">◖ ESCUCHAR LA OSCURIDAD</button>
+        </div>
+        <div class="warning"><span>⚠</span> EXPERIENCIA DE TERROR · RECOMENDADO CON AURICULARES</div>
+      </div>
+      <div class="hero-coordinate">LAT. 00°00'00" / ARCHIVO NO CLASIFICADO</div>
+      <div class="hero-side-note">NO ESTÁS A SOLAS</div>
+      <div class="scroll-cue"><span></span> DESCIENDE SI TE ATREVES</div>
+    </section>
+
+    <section class="intro section-wrap">
+      <p class="eyebrow">REGISTRO #001</p>
+      <h2>BIENVENIDO A <span>LA ÚLTIMA NOCHE.</span></h2>
+      <p class="section-lead">Aquí encontrarás ideas para convertirte en tu peor pesadilla y películas que harán que cualquier ruido de tu casa parezca una advertencia.</p>
+    </section>
+
+    <section class="section-wrap" id="disfraces">
+      <div class="section-heading">
+        <div><p class="eyebrow">IDENTIDADES PERDIDAS</p><h2>¿DE QUÉ TE <span>DISFRAZARÁS?</span></h2></div>
+        <p>Elige una identidad.<br>Deja la tuya en la puerta.</p>
+      </div>
+      <div class="cards costume-grid">
+        <article class="horror-card costume-card">
+          <div class="card-art art-ghost"><span class="art-symbol">◉</span><span class="art-caption">FIGURA 01 / SIN ROSTRO</span></div>
+          <div class="card-content"><p class="card-type">CLÁSICO MALDITO</p><h3>El espectro del pasillo</h3><p>Ropa oscura, una tela pálida y una presencia silenciosa. Lo más aterrador es que nadie te escuche llegar.</p><div class="tags"><span>FÁCIL</span><span>BAJO PRESUPUESTO</span></div></div>
+        </article>
+        <article class="horror-card costume-card">
+          <div class="card-art art-doll"><span class="art-symbol">♙</span><span class="art-caption">FIGURA 02 / JUGUETE ROTO</span></div>
+          <div class="card-content"><p class="card-type">PESADILLA VINTAGE</p><h3>La muñeca abandonada</h3><p>Vestuario antiguo, maquillaje de porcelana agrietada y una sonrisa inmóvil. No parpadees demasiado.</p><div class="tags"><span>INTERMEDIO</span><span>MAQUILLAJE</span></div></div>
+        </article>
+        <article class="horror-card costume-card">
+          <div class="card-art art-cult"><span class="art-symbol">✳</span><span class="art-caption">FIGURA 03 / EL VIGILANTE</span></div>
+          <div class="card-content"><p class="card-type">LEYENDA URBANA</p><h3>La sombra del bosque</h3><p>Capucha, capas negras y detalles grises. Muévete despacio, como si algo invisible guiara tus pasos.</p><div class="tags"><span>FÁCIL</span><span>OSCURIDAD TOTAL</span></div></div>
+        </article>
+      </div>
+      <p class="small-note">Consejo del archivo: usa maquillaje apto para la piel y asegúrate de ver bien si vas a caminar de noche.</p>
+    </section>
+
+    <section class="movie-section" id="peliculas">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div><p class="eyebrow">PROYECCIONES PROHIBIDAS</p><h2>PELÍCULAS PARA <span>NO DORMIR.</span></h2></div>
+          <p>Apaga las luces.<br>Deja una encendida… por si acaso.</p>
+        </div>
+        <div class="movie-list">
+          <article class="movie-row"><div class="movie-number">01</div><div class="movie-icon">▧</div><div class="movie-info"><p class="card-type">TERROR SOBRENATURAL</p><h3>El conjuro</h3><p>Una investigación paranormal que convierte una casa aislada en una trampa inquietante.</p></div><div class="movie-meta"><span class="fear-level">MIEDO ALTO</span><span>Fantasmas · Misterio</span></div></article>
+          <article class="movie-row"><div class="movie-number">02</div><div class="movie-icon">◉</div><div class="movie-info"><p class="card-type">TERROR PSICOLÓGICO</p><h3>La noche del demonio</h3><p>Una familia descubre que el peligro no está solamente dentro de su hogar.</p></div><div class="movie-meta"><span class="fear-level">TENSIÓN</span><span>Paranormal · Suspenso</span></div></article>
+          <article class="movie-row"><div class="movie-number">03</div><div class="movie-icon">⌁</div><div class="movie-info"><p class="card-type">TERROR CLÁSICO</p><h3>Halloween</h3><p>Una figura silenciosa vuelve a acechar durante una noche que debería ser como cualquier otra.</p></div><div class="movie-meta"><span class="fear-level">SLASHER</span><span>Persecución · Clásico</span></div></article>
+          <article class="movie-row"><div class="movie-number">04</div><div class="movie-icon">☾</div><div class="movie-info"><p class="card-type">FOLK HORROR</p><h3>El ritual</h3><p>Una caminata por un bosque remoto se transforma en una pesadilla llena de símbolos extraños.</p></div><div class="movie-meta"><span class="fear-level">INQUIETANTE</span><span>Bosque · Criaturas</span></div></article>
+        </div>
+        <p class="small-note">Las edades recomendadas varían según el país y la versión. Revisa la clasificación antes de elegir.</p>
+      </div>
+    </section>
+
+    <section class="ritual-section" id="ritual">
+      <div class="ritual-inner">
+        <p class="eyebrow">PROTOCOLO FINAL · 00:00</p>
+        <h2>TOCA LA PUERTA.<br><em>ELIGE TU DESTINO.</em></h2>
+        <p class="ritual-copy">Hay alguien del otro lado. Si eliges mal, quizá entre.</p>
+        <div class="choice-buttons">
+          <button id="sweetButton" class="button button-ghost big-choice" type="button">🍬 DULCE</button>
+          <button id="trickButton" class="button button-red big-choice" type="button">☠ TRUCO</button>
+        </div>
+        <p class="choice-hint">Sube un poco el volumen… si te atreves.</p>
+        <div id="result" class="result" role="status" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>LA NOCHE © 2026</span><span>SI ESCUCHAS TRES GOLPES, NO ABRAS.</span><a href="#inicio">VOLVER ARRIBA ↑</a></footer>
+
+  <div id="jumpscare" class="jumpscare" aria-hidden="true">
+    <div class="scare-face"><div class="scare-eyes"><i></i><i></i></div><div class="scare-mouth"></div></div>
+    <p>TE ENCONTRÉ.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
